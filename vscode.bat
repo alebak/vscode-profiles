@@ -1,6 +1,6 @@
 @ECHO OFF
 rem
-rem		Visual Studio Code Profile
+rem		Visual Studio Code Profiles
 rem		Copyright (C) 2021  Alejandro Arroyave Valencia (@alebak)
 rem	
 rem		This program is free software: you can redistribute it and\or modify
@@ -68,7 +68,7 @@ GOTO exit
 	GOTO exit
 	
 :help
-	ECHO Visual Studio Code Profile 1.0.0 %n%
+	ECHO Visual Studio Code Profiles 1.0.1 %n%
 	ECHO Usage: vscode.bat [option] %n%
 	ECHO If the profile directory does not exist... Relax! Visual Studio Profile creates it for you. &
 	ECHO If no option is passed, Visual Studio Code Profile runs Visual Studio with the default user profile. %n%
