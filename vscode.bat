@@ -22,7 +22,7 @@ SET "t=    "
 SET "DIRPROFILE="
 
 IF "%~1" == "" 			GOTO default
-IF "%~1" == "--help" 	GOTO help
+IF "%~1" == "--help" 		GOTO help
 IF "%~1" == "-h" 		GOTO help
 IF "%~1" == "go" 		SET "DIRPROFILE=go" & GOTO go
 IF "%~1" == "--go"		SET "DIRPROFILE=go" & GOTO go
@@ -30,8 +30,8 @@ IF "%~1" == "js"		SET "DIRPROFILE=fs" & GOTO javascript
 IF "%~1" == "--js"		SET "DIRPROFILE=fs" & GOTO javascript
 IF "%~1" == "php"		SET "DIRPROFILE=php" & GOTO php
 IF "%~1" == "--php"		SET "DIRPROFILE=php" & GOTO php
-IF "%~1" == "python"	SET "DIRPROFILE=python" & GOTO python
-IF "%~1" == "--python"	SET "DIRPROFILE=python" & GOTO python
+IF "%~1" == "python"		SET "DIRPROFILE=python" & GOTO python
+IF "%~1" == "--python"		SET "DIRPROFILE=python" & GOTO python
 IF "%~1" == "ts" 		SET "DIRPROFILE=ts" & GOTO typescript
 IF "%~1" == "--ts" 		SET "DIRPROFILE=ts" & GOTO typescript
 
